@@ -1,0 +1,32 @@
+
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#game-container {
+    padding: 20px;
+}
+#top-bar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #222;
+    padding: 10px;
+}
+#buttons {
+    margin-top: 20px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
+}
+#background {
+    height: 200px;
+    background-image: url('../assets/images/backgrounds/day.png');
+    background-size: cover;
+}
