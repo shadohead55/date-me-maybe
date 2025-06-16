@@ -11,6 +11,8 @@
 
 ## Getting Started
 
+PLAY HERE: https://shadohead55.github.io/date-me-maybe/
+
 Open `index.html` in your favorite browser and start clicking. As you earn cash and love points, you'll unlock the ability to go on a date at night.
 
 ## How to Play
