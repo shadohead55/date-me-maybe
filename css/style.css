@@ -46,3 +46,15 @@ button {
     height: 200px;
     background-size: cover;
 }
+
+#timer {
+    margin-top: 10px;
+}
+
+#log {
+    margin-top: 20px;
+    max-height: 120px;
+    overflow-y: auto;
+    text-align: left;
+    padding: 0 10px;
+}

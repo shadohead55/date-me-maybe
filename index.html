@@ -12,22 +12,25 @@
             <div id="cash">💵 Cash: 0</div>
             <div id="love">❤️ Love: 0</div>
             <div id="time-period">☀️ Daytime</div>
+            <div id="timer"></div>
         </div>
         <div id="background"></div>
         <div id="gender-selection">
             <p>Select your gender</p>
-            <button onclick="selectGender('male')">♂</button>
-            <button onclick="selectGender('female')">♀</button>
+            <button id="btn-male">♂</button>
+            <button id="btn-female">♀</button>
         </div>
         <div id="character-container">
             <img id="player-sprite" src="" alt="Player Sprite" style="display:none;">
             <img id="partner-sprite" src="" alt="Partner Sprite" style="display: none;">
         </div>
         <div id="buttons">
-            <button onclick="doTask()">🧼 Do Self-Care</button>
-            <button onclick="goOnDate()" id="date-btn" disabled>🌹 Go on Date</button>
+            <button id="btn-care">🧼 Do Self-Care</button>
+            <button id="btn-date" disabled>🌹 Go on Date</button>
         </div>
+        <div id="log"></div>
     </div>
-    <script src="js/game.js"></script>
+    <script src="js/assets.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
